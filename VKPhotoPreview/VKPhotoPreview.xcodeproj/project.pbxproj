@@ -9,11 +9,10 @@
 /* Begin PBXBuildFile section */
 		843ED24C1B46B5000025BEB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 843ED24B1B46B5000025BEB7 /* main.m */; };
 		843ED24F1B46B5000025BEB7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 843ED24E1B46B5000025BEB7 /* AppDelegate.m */; };
-		843ED2521B46B5000025BEB7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 843ED2511B46B5000025BEB7 /* ViewController.m */; };
 		843ED2551B46B5000025BEB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843ED2531B46B5000025BEB7 /* Main.storyboard */; };
-		843ED2571B46B5000025BEB7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843ED2561B46B5000025BEB7 /* Images.xcassets */; };
 		843ED25A1B46B5000025BEB7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 843ED2581B46B5000025BEB7 /* LaunchScreen.xib */; };
 		843ED2661B46B5000025BEB7 /* VKPhotoPreviewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 843ED2651B46B5000025BEB7 /* VKPhotoPreviewTests.m */; };
+		843ED2731B46D5C30025BEB7 /* EELoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 843ED2721B46D5C30025BEB7 /* EELoginVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +31,13 @@
 		843ED24B1B46B5000025BEB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		843ED24D1B46B5000025BEB7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		843ED24E1B46B5000025BEB7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		843ED2501B46B5000025BEB7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		843ED2511B46B5000025BEB7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		843ED2541B46B5000025BEB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		843ED2561B46B5000025BEB7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		843ED2591B46B5000025BEB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		843ED25F1B46B5000025BEB7 /* VKPhotoPreviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VKPhotoPreviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		843ED2641B46B5000025BEB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		843ED2651B46B5000025BEB7 /* VKPhotoPreviewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKPhotoPreviewTests.m; sourceTree = "<group>"; };
+		843ED2711B46D5C30025BEB7 /* EELoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EELoginVC.h; sourceTree = "<group>"; };
+		843ED2721B46D5C30025BEB7 /* EELoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EELoginVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,10 +81,8 @@
 			children = (
 				843ED24D1B46B5000025BEB7 /* AppDelegate.h */,
 				843ED24E1B46B5000025BEB7 /* AppDelegate.m */,
-				843ED2501B46B5000025BEB7 /* ViewController.h */,
-				843ED2511B46B5000025BEB7 /* ViewController.m */,
+				843ED26F1B46D4EC0025BEB7 /* ViewControlers */,
 				843ED2531B46B5000025BEB7 /* Main.storyboard */,
-				843ED2561B46B5000025BEB7 /* Images.xcassets */,
 				843ED2581B46B5000025BEB7 /* LaunchScreen.xib */,
 				843ED2491B46B5000025BEB7 /* Supporting Files */,
 			);
@@ -117,6 +113,23 @@
 				843ED2641B46B5000025BEB7 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		843ED26F1B46D4EC0025BEB7 /* ViewControlers */ = {
+			isa = PBXGroup;
+			children = (
+				843ED2701B46D52F0025BEB7 /* EEloginVC */,
+			);
+			name = ViewControlers;
+			sourceTree = "<group>";
+		};
+		843ED2701B46D52F0025BEB7 /* EEloginVC */ = {
+			isa = PBXGroup;
+			children = (
+				843ED2711B46D5C30025BEB7 /* EELoginVC.h */,
+				843ED2721B46D5C30025BEB7 /* EELoginVC.m */,
+			);
+			name = EEloginVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,7 +214,6 @@
 			files = (
 				843ED2551B46B5000025BEB7 /* Main.storyboard in Resources */,
 				843ED25A1B46B5000025BEB7 /* LaunchScreen.xib in Resources */,
-				843ED2571B46B5000025BEB7 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,8 +231,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				843ED2521B46B5000025BEB7 /* ViewController.m in Sources */,
 				843ED24F1B46B5000025BEB7 /* AppDelegate.m in Sources */,
+				843ED2731B46D5C30025BEB7 /* EELoginVC.m in Sources */,
 				843ED24C1B46B5000025BEB7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

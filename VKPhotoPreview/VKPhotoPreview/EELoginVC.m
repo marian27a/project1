@@ -1,28 +1,30 @@
 //
-//  ViewController.m
+//  EEloginVC.m
 //  VKPhotoPreview
 //
 //  Created by admin on 7/3/15.
 //  Copyright (c) 2015 Maryan. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "EELoginVC.h"
 
-@interface ViewController ()
+@interface EELoginVC ()
 
 @end
 
-@implementation ViewController
+@implementation EELoginVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    // Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)loginBtnPressed:(id)sender {
+    
+    NSLog(@"loginBtnPressed");
 }
 
 @end
