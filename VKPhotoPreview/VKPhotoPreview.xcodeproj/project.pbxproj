@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8415DF911B4BEFE1008C5C45 /* EELoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8415DF901B4BEFE1008C5C45 /* EELoginViewController.m */; };
+		8415DF961B4C1C2D008C5C45 /* EEFriendsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8415DF951B4C1C2D008C5C45 /* EEFriendsVC.m */; };
 		843ED24C1B46B5000025BEB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 843ED24B1B46B5000025BEB7 /* main.m */; };
 		843ED24F1B46B5000025BEB7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 843ED24E1B46B5000025BEB7 /* AppDelegate.m */; };
 		843ED2551B46B5000025BEB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843ED2531B46B5000025BEB7 /* Main.storyboard */; };
@@ -26,6 +28,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8415DF8F1B4BEFE1008C5C45 /* EELoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EELoginViewController.h; sourceTree = "<group>"; };
+		8415DF901B4BEFE1008C5C45 /* EELoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EELoginViewController.m; sourceTree = "<group>"; };
+		8415DF921B4BF249008C5C45 /* constans.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = constans.h; sourceTree = "<group>"; };
+		8415DF941B4C1C2D008C5C45 /* EEFriendsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EEFriendsVC.h; path = ViewControllers/EEFriendsVC/EEFriendsVC.h; sourceTree = "<group>"; };
+		8415DF951B4C1C2D008C5C45 /* EEFriendsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EEFriendsVC.m; path = ViewControllers/EEFriendsVC/EEFriendsVC.m; sourceTree = "<group>"; };
 		843ED2461B46B5000025BEB7 /* VKPhotoPreview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKPhotoPreview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		843ED24A1B46B5000025BEB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		843ED24B1B46B5000025BEB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -58,6 +65,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8415DF931B4C1BD8008C5C45 /* EEFriendsVC */ = {
+			isa = PBXGroup;
+			children = (
+				8415DF941B4C1C2D008C5C45 /* EEFriendsVC.h */,
+				8415DF951B4C1C2D008C5C45 /* EEFriendsVC.m */,
+			);
+			name = EEFriendsVC;
+			sourceTree = "<group>";
+		};
 		843ED23D1B46B5000025BEB7 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +101,9 @@
 				843ED2531B46B5000025BEB7 /* Main.storyboard */,
 				843ED2581B46B5000025BEB7 /* LaunchScreen.xib */,
 				843ED2491B46B5000025BEB7 /* Supporting Files */,
+				8415DF8F1B4BEFE1008C5C45 /* EELoginViewController.h */,
+				8415DF901B4BEFE1008C5C45 /* EELoginViewController.m */,
+				8415DF921B4BF249008C5C45 /* constans.h */,
 			);
 			path = VKPhotoPreview;
 			sourceTree = "<group>";
@@ -118,6 +137,7 @@
 		843ED26F1B46D4EC0025BEB7 /* ViewControlers */ = {
 			isa = PBXGroup;
 			children = (
+				8415DF931B4C1BD8008C5C45 /* EEFriendsVC */,
 				843ED2701B46D52F0025BEB7 /* EEloginVC */,
 			);
 			name = ViewControlers;
@@ -231,9 +251,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8415DF911B4BEFE1008C5C45 /* EELoginViewController.m in Sources */,
 				843ED24F1B46B5000025BEB7 /* AppDelegate.m in Sources */,
 				843ED2731B46D5C30025BEB7 /* EELoginVC.m in Sources */,
 				843ED24C1B46B5000025BEB7 /* main.m in Sources */,
+				8415DF961B4C1C2D008C5C45 /* EEFriendsVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +450,7 @@
 				843ED26B1B46B5000025BEB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		843ED26C1B46B5000025BEB7 /* Build configuration list for PBXNativeTarget "VKPhotoPreviewTests" */ = {
 			isa = XCConfigurationList;
@@ -436,6 +459,7 @@
 				843ED26E1B46B5000025BEB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

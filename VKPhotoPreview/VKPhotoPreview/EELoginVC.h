@@ -8,7 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface EELoginVC : UIViewController
+@interface EELoginVC : UIViewController <UIWebViewDelegate>{
+    }
+
+
+
 - (IBAction)loginBtnPressed:(id)sender;
 
 @end

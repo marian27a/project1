@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>F20751FD-5997-4196-AC7D-BD40E68A329D</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>VKPhotoPreview</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>55DE79BC685616E3FAABB946760C2537D5756195</key>
 		<string>https://github.com/maryan27m/project1.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>VKPhotoPreview/VKPhotoPreview.xcodeproj/project.xcworkspace</string>
+	<string>VKPhotoPreview/VKPhotoPreview.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>55DE79BC685616E3FAABB946760C2537D5756195</key>
